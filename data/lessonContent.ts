@@ -286,7 +286,7 @@ export const JEREMIAS_LESSON_4: Lesson = {
     {
       id: 'c4-s10-70years',
       type: 'flashcards',
-      title: '70 Años de Captiverio',
+      title: '70 Años de Cautiverio',
       subtitle: 'Capítulo 25: El Fin del Tiempo',
       chapterReference: 'Jeremías 25',
       visual: { type: 'icon', source: 'Clock' },
