@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profetas Mayores - Clase 4</title>
+    <link rel="icon" type="image/png" href="https://cdn.myportfolio.com/d435fa58-d32c-4141-8a15-0f2bfccdea41/1ac05fb8-e508-4c03-b550-d2b907caadbd_rw_600.png?h=7572d326e4292f32557ac73606fd0ece">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <style>
+        body { 
+          font-family: 'Plus Jakarta Sans', sans-serif; 
+          overflow: hidden;
+          -webkit-font-smoothing: antialiased;
+        }
+        h1, h2, h3, h4, .font-outfit { 
+          font-family: 'Outfit', sans-serif; 
+        }
+        ::-webkit-scrollbar { width: 0px; background: transparent; }
+        
+        .slide-fade-enter {
+          opacity: 0;
+          transform: translateY(10px);
+        }
+        .slide-fade-enter-active {
+          opacity: 1;
+          transform: translateY(0);
+          transition: opacity 400ms ease-out, transform 400ms ease-out;
+        }
+        .slide-fade-exit {
+          opacity: 1;
+        }
+        .slide-fade-exit-active {
+          opacity: 0;
+          transform: translateY(-10px);
+          transition: opacity 300ms ease-in, transform 300ms ease-in;
+        }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "lucide-react": "https://esm.sh/lucide-react@^0.562.0",
+    "zustand/": "https://esm.sh/zustand@^5.0.9/",
+    "zustand": "https://esm.sh/zustand@^5.0.9"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body class="bg-[#222222] text-white transition-colors duration-300">
+    <div id="root"></div>
+<script type="module" src="/index.tsx"></script>
+</body>
+</html>
